@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ThreadsInWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="513" Width="184">
+    <Grid Margin="0,0,2,0">
         <Label x:Name="L_01" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="62,39,0,0"/>
-        <Button x:Name="B_Start" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="460" Margin="330,0,0,-1" Height="420" Click="B_Start_Click"/>
-        <Label x:Name="L_10" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180,194,0,0"/>
-        <Label x:Name="L_09" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="177,155,0,0"/>
-        <Label x:Name="L_08" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="177,114,0,0"/>
-        <Label x:Name="L_07" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180,75,0,0"/>
-        <Label x:Name="L_06" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="177,39,0,0"/>
+        <Button x:Name="B_Start" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="87" Margin="48,430,0,0" Height="23" Click="B_Start_Click"/>
+        <Label x:Name="L_10" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,388,0,0"/>
+        <Label x:Name="L_09" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="65,349,0,0"/>
+        <Label x:Name="L_08" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="65,308,0,0"/>
+        <Label x:Name="L_07" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,269,0,0"/>
+        <Label x:Name="L_06" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="65,233,0,0" RenderTransformOrigin="-1.684,7.769"/>
         <Label x:Name="L_05" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,190,0,0"/>
         <Label x:Name="L_04" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="9.079,2.692" Margin="62,150,0,0"/>
         <Label x:Name="L_03" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="62,115,0,0"/>
